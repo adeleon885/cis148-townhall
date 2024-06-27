@@ -14,6 +14,15 @@ body {
     border: 3px solid #800000;
     background-color: #fffded;
 }
+
+article img {
+	width: 275px;
+}
+
+article {
+	column-count: 2;
+	column-gap: 20px;
+}
 a:focus, a:hover {
 	font-style: italic;
 }
@@ -63,8 +72,8 @@ article p {
 	padding-bottom: .5em;
 }
 article img {
-	float: right;
-	margin: .25em 0 1em 1em;
+	float: left;
+	margin: 0 .5em 1em 0em;
 	border: 1px solid black;
 }
 aside {
