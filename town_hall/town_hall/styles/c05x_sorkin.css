@@ -1,0 +1,59 @@
+html {
+    background-color: yellow;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    align-content: center;
+    width: 650px; 
+    margin: auto;
+    margin-bottom: 40px;
+    background-color: white;    
+    padding: 15px 1.5em;
+    border: 10px double blue; 
+    border-radius: 0;
+}
+
+footer {
+    margin-top: 25px;
+    border-top: 3px solid blue;
+    padding-top: 15px; }
+
+footer p {
+    font-size: 90%;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    font-size: 150%;
+    color: blue;
+}
+h2 {
+    font-size: 125%;
+}
+h3 {
+    font-size: 115%;
+}
+
+img {
+    float:left;
+    padding-right: 1em;
+    padding-top: 5px;
+}
+
+ul {
+    margin-left: 1em;
+    padding-left: 0;
+}
+
+li {
+    padding: 5px 0px;
+}
+blockquote {margin-left: 0;}
+
+p.author {
+    text-align: right;
+    color: blue;
+    padding-bottom: 0.75em;
+}
