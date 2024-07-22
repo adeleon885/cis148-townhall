@@ -105,14 +105,3 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
-
-#image1 {
-	background-image: url('../images/sampson_dinosaur.jpg');
-	width: 260px;
-	height: 260px;
-	background-repeat: no-repeat;
-}
-
-#image1:hover {
-	background-image: url('../images/sorkin_desk260.jpg');
-}

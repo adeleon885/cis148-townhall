@@ -9,17 +9,13 @@ html {
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 98%;
-	max-width: 850px;
+    width: 850px;
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
 }
 a:focus, a:hover {
 	font-style: italic;
-}
-a:visited {
-	color: blue;
 }
 /* the styles for the header */
 header {
@@ -38,7 +34,7 @@ header h3 {
 }
 header img {
 	float: left;
-	padding: 0 3.53%;
+	padding: 0 30px;
 }
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
@@ -50,9 +46,9 @@ main {
 
 /* the styles for the section */
 section {
-	width: 68%;
+	width: 575px;
 	float: right;
-	padding: 0 2.53% 2.53% 20px;
+	padding: 0 20px 20px 20px;
 }
 section h1 {
 	color: #800000;
@@ -74,17 +70,15 @@ article h2 {
 }
 article img {
 	float: right;
-	margin: .5em 0 1.88% 3.53%;
+	margin: .5em 0 1em 1em;
 	border: 1px solid black;
-	width: 50%;
-	height: auto;
 }
 
 /* the styles for the aside */
 aside {
-	width: 24%;
-	float: left;
-	padding: 0 0 2.53% 2%;
+	width: 215px;
+	float: right;
+	padding: 0 0 20px 20px;
 }
 aside h2 {
 	color: #800000;
@@ -110,31 +104,4 @@ footer p {
 	text-align: center;
 	color: white;
 	padding: 1em 0;
-}
-
-#nav_list ul {
-	list-style-type: none;
-	margin-left: 0;
-	margin-bottom: 1.5em;
-}
-#nav_list ul li {
-	width: 65%;
-	margin-bottom: 0.5em;
-	border: 2px solid black;
-	border-radius: 10px;
-	box-shadow: 2px 2px #800000;
-}
-#nav_list ul li a {
-	display: block;
-	padding: 0.5em 0 0.5em 0.5em;
-	padding-right: 1.5em;
-	text-decoration: none;
-	font-weight: bold;
-	color: black;
-	background-image: url('../images/right.jpg');
-	background-repeat:no-repeat;
-	background-position: 95% center;
-}
-#nav_list ul li a.current {
-	color: #800000;
 }

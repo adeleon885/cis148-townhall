@@ -131,28 +131,3 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
-
-@media screen and (max-width: 850px) {
-	body {
-		font-size: 90%;
-	}
-	#nav_list ul li {
-		border: none;
-		box-shadow: none;
-		background-image: none;
-	}
-	#nav_list ul li a {
-		padding-left: 0;
-	}
-}
-
-@media screen and (max-width: 650px) {
-    section, aside {
-        float: none;
-        width: 100%;
-        padding: 0;
-    }
-    section {
-        padding: 0 2.35%;
-    }
-}

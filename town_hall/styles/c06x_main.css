@@ -9,7 +9,7 @@ html {
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 1000px;
+    width: 800px;
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
@@ -40,27 +40,19 @@ header img {
 	text-shadow: 2px 2px 2px #800000;
 }
 /* the styles for the main content */
-#left {
-	float: left;
-}
-
 main {
 	clear: left;
 }
-
 /* the styles for the section */
 section {
-	width: 570px;
-	float: left;
-	padding: 0 0 0 0;
-	margin-right: 13em;
-	height: 420px;
-
+	width: 525px;
+	float: right;
+	padding: 0 20px 20px 20px;
 }
 section h1 {
 	font-size: 150%;
 	padding: .5em 0 .25em 0;
-	margin-right: 0;               /* If you remove this, the margins in normalize.css will be applied. */
+	margin: 0;               /* If you remove this, the margins in normalize.css will be applied. */
 }
 section h2 {
 	color: #800000;
@@ -99,19 +91,12 @@ article img {
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
 }
-#right {
-	float: right;
-	padding-bottom: 1em;
-	position: relative;
-	top: -26.5em;
-	padding-right: 10px;
-	
-}
+
 /* the styles for the aside */
 aside {
-	width: 200px;
-	float: left;
-	padding: 0 0 0 10px;
+	width: 215px;
+	float: right;
+	padding: 0 0 20px 20px;
 }
 aside h2 {
 	color: #800000;
@@ -131,6 +116,7 @@ aside img {
 footer {
 	background-color: #931420;
 	clear: both;
+
 }
 footer p {
 	text-align: center;
