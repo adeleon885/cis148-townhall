@@ -41,12 +41,41 @@
 		#button {
 			margin-left: 9em;
 		}
+		.checkbox-group label {
+			display: block;
+			width: auto;
+			float: none;
+			margin-bottom: 0.5em;
+		}
+		.checkbox-group input {
+			float: right;
+			margin-right: 16em;
+			margin-right: 1em;
+		}
+        input:focus {
+            border: 3px solid black;
+            outline: none;
+			border-radius: 5px;
+        }
+		input[type="submit"], input[type="reset"] {
+			background-color: darkgray;
+			color: black;
+    		box-shadow: 2px 2px 4px blue;
+    		border: 1px black;
+    		padding: 0.1em;
+    		font-weight: bold;
+}
+
+#button {
+    margin-left: 9em; /* Position the submit button */
+}
+
 	</style>
 </head>
 
 <body>
 <h1>Please complete our survey</h1>
-<form id="myform" action="survey.php" method="post">
+<form id="myform" action="survey_data.html" method="get">
 	
 	<h2>Contact information</h2>
 	<label for="email">Email address:</label>
@@ -56,6 +85,21 @@
     <label for="lastname">Last name:</label>
     <input type="text" name="lastname" id="lastname"><br>
     
+	<h2>Geographic Information</h2>
+	<label for="state">State:</label>
+    <input type="text" name="state" id="state" pattern="[A-Za-z]{2}" placeholder="Two characters" required><br>
+    
+    <label for="zip">Zip Code:</label>
+    <input type="text" name="zip" id="zip" pattern="\d{5}" placeholder="Five Digits" required><br>
+    
+	<h2>How Did You Hear About US?</h2>
+	<div class="checkbox-group">
+		<label>Web Search:<input type="checkbox" name="source" value="Web Search"></label>
+        <label>Facebook:<input type="checkbox" name="source" value="Facebook"></label>
+        <label>Twitter:<input type="checkbox" name="source" value="Twitter"></label>
+        <label>Email message:<input type="checkbox" name="source" value="Email message"></label>
+	</div>
+
     <h2>Thank you for taking our survey!</h2>
     <input type="submit" name="button" id="button" value="Submit">
     <input type="reset" name="reset" id="reset"> 
