@@ -140,3 +140,20 @@ footer p {
 	transform: rotateX(360deg);
 	transition: transform 3s ease;
 }
+
+header img {
+	float: left;
+	padding: 0 30px;
+	animation: bounce 0.5s ease-in 8 alternate;
+}
+
+@keyframes bounce {
+	from {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	to {
+		padding-left: 50px;
+		padding-right: 10px;
+	}
+}
